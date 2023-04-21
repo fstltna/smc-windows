@@ -1,12 +1,12 @@
 name:  smc-windows
 title:  Secret Maryo Chronicles
 version: "1.9"
-summary:   Classic arcade game
+summary:   A Jump and Run game like Super Mario World with an advanced Editor
 description: |
-  Classic arcade game
+  A Jump and Run game like Super Mario World with an advanced Editor and highly detailed Graphics based on SDL with a OpenGL accelerated Graphics Renderer developed in C++.
 
 grade: stable
-icon: super-maryo_icon.png
+icon: secret-maryo_icon.png
 
 base: core18
 confinement: strict
@@ -20,7 +20,7 @@ environment:
   SOMMELIER_STRICT: "1"                                    # Make Sommelier exit when unset variable is used. (useful to find bugs in sommelier)
 
 apps:
-  super-maryo:
+  secret-maryo:
     extensions: [ gnome-3-28 ]
     command: bin/sommelier run-exe
     environment:
